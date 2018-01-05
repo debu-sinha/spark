@@ -8,7 +8,7 @@ import org.apache.spark.sql.SparkSession
 object SparkCommonUtils {
 
   
-  val datadir =  "/home/edureka/workspace/projects/spark/src/main/resources"
+  val datadir =  "<path to resources folder>"
   
   val appName = "App-Debu"
   
