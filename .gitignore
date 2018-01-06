@@ -2,5 +2,6 @@
 .cache*
 .project
 .settings
+.tmp*
 target
 /bin/
