@@ -8,12 +8,13 @@ import org.apache.spark.sql.SparkSession
 object SparkCommonUtils {
 
   
-  val datadir =  "<path to resources folder>"
+  val datadir =  "/home/edureka/workspace/projects/spark/src/main/resources"
   
   val appName = "App-Debu"
   
-  val sparkMasterURL = "local[1]"
-  //val sparkMasterURL = "spark://localhost:7077"
+  //val sparkMasterURL = "local[4]"
+  val sparkMasterURL = "spark://localhost:7077"
+  //val sparkMasterURL = "yarn"
   
   val tempDir = "/tmp/spark-warehouse"
   
